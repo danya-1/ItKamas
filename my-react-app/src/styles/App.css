@@ -1,0 +1,28 @@
+.App{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: greenyellow;
+} 
+.sideBar{
+    background: pink;
+    display: flex;
+    flex-direction: column;
+} 
+.mainContent{
+    background-color: blueviolet;
+    width: 100%;
+}
+.mainContent img{
+    width: 100%;
+}
